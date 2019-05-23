@@ -19,27 +19,58 @@
         <h1>Tania Bania.js</h1>
         <div class="content">
 
-            
-            <select name="nazwa" id="wybor">
-                <option value="0.1">seta</option>
-                <option value="0.2">0.2 l</option>
-                <option value="0.25">0.25 l</option>
-                <option value="0.5">0.5 l</option>
-                <option value="0.7">0.7 l</option>
-                <option value="0.75">0.75 l</option>
-                <option value="1">1 l</option>
-                <option value="2">2 l</option>
-                <option value="3">3 l</option>
+        </div>
+        <div class="content">
+            <h4>Podaj nazwę trunku</h4>
+            <div id="add_new">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Trunek</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+                <select name="nazwa" id="wybor">
+            <option value="0.1">seta</option>
+            <option value="0.2">0.2 l</option>
+            <option value="0.25">0.25 l</option>
+            <option value="0.5">0.5 l</option>
+            <option value="0.7">0.7 l</option>
+            <option value="0.75">0.75 l</option>
+            <option value="1">1 l</option>
+            <option value="2">2 l</option>
+            <option value="3">3 l</option>
 
-            </select>
-            <input class='inp' id = 'wolt' type="text" placeholder="Wpisz woltaż">
-            <input class='inp' id = 'cena' type="text" placeholder="Podaj cenę">
-            <div class="calc">
+        </select>
+        <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Podaj woltaż</span>
+                    </div>
+                    <input type="text" id='wolt' class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Wpisz woltaż">
+                    
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Podaj cenę</span>
+                    </div>
+                    <input type="text" id='cena' class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Podaj cenę">
+                
+        </div>
+
+        <div class="calc">
             <div class="row">
                 <button id='licz'>Policz</button>
                 <span id='wynik'></span>
+
+
             </div>
+                
             </div>
+            <ul class="list-group">
+                <li class="list-group-item xxx"><span>Example task</span>
+                </li>
+
+            </ul>
+        </div>
+        
         </div>
     </div>
 
